@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animations.css">
     <script src="main.js"></script>
-    <script defer data-domain="pkeep.io" data-api="https://misty-feather-4e45.hi9800.workers.dev/need-to-know/event" src="https://misty-feather-4e45.hi9800.workers.dev/need-to-know/script.js"></script>
+    <script defer data-domain="pkeep.io" data-api="https://misty-feather-4e45.hi9800.workers.dev/need-to-know/event"
+        src="https://misty-feather-4e45.hi9800.workers.dev/need-to-know/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>pKeep - Investment Property Income & Expense Tracker</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-touch-icon.png">
@@ -46,93 +47,87 @@
         </div>
 
         <div class="limit-width">
-            <div class="tripple-feature">
-                <div>
-                    <img src="assets/email.svg" alt="Screenshot of email capability" width="360" />
-
-                </div>
+            <div class="feature">
+                <img id="img-email" src="assets/email.svg" alt="Screenshot of email capability" width="100" />
                 <div>
                     <div class="border-left">
-                        <p><span class="brand"><b>Soft copies</b></span></p>
+                        <p><span class="brand"><b>Forward emails</b></span></p>
                         <p>Send or forward transactions including attachments to a generated personal email address to
                             automatically add them to your folio.</p>
                     </div>
-                    <br />
-                    <br />
-                    <div class="border-right">
-                        <p class="align-right"><span class="brand"><b>Hard copies</b></span></p>
-                        <p class="align-right">Use the pKeep mobile app and your phone's camera to scan documents and
-                            instantly
-                            add them to a transaction.</p>
-                    </div>
                 </div>
+            </div>
+            <div class="feature">
                 <div>
-                    <img src="assets/iphone-transaction.svg"
-                        alt="Screenshot of iphone/android/mobile app with scan document with phone camera emphasised"
-                        width="400" />
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="full-width dark">
-            <div class="limit-width hero dark">
-                <h3><span class="brand">Collaborate</span> with others when managing a joint property</h3>
-                <p>Give others access to properties in your folio and maintain a unified transaction list, shared
-                    responsibility and management. Avoid doubling up on payments, documents and receipts.</p>
-                <div class="hero-image">
-                    <img src="assets/properties.svg"
-                        alt="Screenshot of property management and setup where other users can be invited to manage the same property"
-                        width="600" />
-                </div>
-            </div>
-        </div>
-
-        <div class="full-width light">
-
-            <div class="limit-width hero">
-                <h3>See where you <span class="brand">financially stand</span> for the year and historically</h3>
-                <p>Know when you are cash flow positive, neutral, or negative for individual properties and your entire
-                    portfolio. See how you financially stand in comparison to previous financial years.</p>
-                <div class="hero-image">
-                    <img src="assets/transaction-summary.svg"
-                        alt="Screenshot showing balance and transactions (money in/money out) over the current and  previous financial years"
-                        width="600" />
-                </div>
-            </div>
-
-            <div class="limit-width">
-                <div class="feature">
-                    <img src="assets/summaries.svg"
-                        alt="Screenshot of list of possible summary download options broken down by years and properties"
-                        width="500" />
-                    <div>
-                        <div class="border-left">
-                            <p><span class="brand"><b>Financial summaries</b></span></p>
-                            <p>Download end of year financial summaries containing an itemised list of all your
-                                transactions
-                                and monthly totals. Contains everything your tax agent needs to know.</p>
-                        </div>
+                    <div class="border-right">
+                        <p class="align-right"><span class="brand"><b>Add any type of transaction</b></span></p>
+                        <p class="align-right">Any kind of income or expense can be added and tracked in pKeep. Create
+                            and customise your own transaction types as needed.</p>
                     </div>
                 </div>
-
-                <div class="feature">
-                    <div>
-                        <div class="border-right">
-                            <p class="align-right"><span class="brand"><b>Export your folio</b></span></p>
-                            <p class="align-right">You're not locked into using pKeep for life, export your complete
-                                folio
-                                at any time. All transactions, attachments and financial summaries will be neatly
-                                bundled
-                                together.</p>
-                        </div>
-                    </div>
-                    <img src="assets/export.svg"
-                        alt="Screenshot showing the ability to easily export an entire portfolio." width="500" />
-                </div>
+                <img id="img-transaction-types" src="assets/transaction-types.svg"
+                    alt="Screenshot of possible transaction types and ability to add custom ones" width="100" />
             </div>
         </div>
+    </div>
+
+    <div class="full-width dark">
+        <div class="limit-width hero dark">
+            <h3><span class="brand">Collaborate</span> with others when managing a joint property</h3>
+            <p>Give others access to properties in your folio and maintain a unified transaction list, shared
+                responsibility and management. Avoid doubling up on payments, documents and receipts.</p>
+            <div class="hero-image">
+                <img src="assets/properties.svg"
+                    alt="Screenshot of property management and setup where other users can be invited to manage the same property"
+                    width="600" />
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width light">
+
+        <div class="limit-width hero">
+            <h3>See where you <span class="brand">financially stand</span> for the year and historically</h3>
+            <p>Know when you are cash flow positive, neutral, or negative for individual properties and your entire
+                portfolio. See how you financially stand in comparison to previous financial years.</p>
+            <div class="hero-image">
+                <img src="assets/transaction-summary.svg"
+                    alt="Screenshot showing balance and transactions (money in/money out) over the current and  previous financial years"
+                    width="600" />
+            </div>
+        </div>
+
+        <div class="limit-width">
+            <div class="feature">
+                <img src="assets/summaries.svg"
+                    alt="Screenshot of list of possible summary download options broken down by years and properties"
+                    width="500" />
+                <div>
+                    <div class="border-left">
+                        <p><span class="brand"><b>Financial summaries</b></span></p>
+                        <p>Download end of year financial summaries containing an itemised list of all your
+                            transactions
+                            and monthly totals. Contains everything your tax agent needs to know.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div>
+                    <div class="border-right">
+                        <p class="align-right"><span class="brand"><b>Export your folio</b></span></p>
+                        <p class="align-right">You're not locked into using pKeep for life, export your complete
+                            folio
+                            at any time. All transactions, attachments and financial summaries will be neatly
+                            bundled
+                            together.</p>
+                    </div>
+                </div>
+                <img src="assets/export.svg" alt="Screenshot showing the ability to easily export an entire portfolio."
+                    width="500" />
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="full-width">
@@ -171,7 +166,7 @@
                         <li>Transaction summaries and reports</li>
                         <li>Completely exportable data</li>
                         <li>Joint property collaboration with others</li>
-                        <li>Access to both mobile and web apps</li>
+                        <li>Secure cloud hosted web application</li>
                     </ul>
                 </div>
                 <a href="#cta"><button>Get Started</button></a>

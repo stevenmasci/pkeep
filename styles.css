@@ -299,6 +299,14 @@ input::placeholder {
     max-width: 500px;
 }
 
+#img-email {
+    max-width: 350px;  
+}
+
+#img-transaction-types {
+    max-width: 220px;  
+}
+
 .hero p,
 .feature p,
 .double-feature p,
@@ -310,7 +318,7 @@ td {
 .feature {
     margin-bottom: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
